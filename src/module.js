@@ -6,11 +6,8 @@
  */
 require('./function/checkupdate.js');
 /*********
- * Classes
- */
-/*********
  * Exports
  */
 module.exports = {
-	
+	require('./function/')
 };
