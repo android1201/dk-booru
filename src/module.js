@@ -9,5 +9,5 @@ require('./function/checkupdate.js');
  * Exports
  */
 module.exports = {
-	require('./function/')
+	require('./class/')
 };
