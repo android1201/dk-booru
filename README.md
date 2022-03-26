@@ -15,7 +15,9 @@ booru.search({
     }
 }).then(data => console.log(data));
 ```
-**SITESEARCH**
+**SETSITE**
 ```
-Soon!
+booru.setSite({
+    site: 'sb'
+});
 ```
