@@ -1,7 +1,7 @@
 {
   "name": "dk-booru",
   "version": "0.0.1",
-  "description": "An module to connected booru servers",
+  "description": "An module to connected booru servers!",
   "main": "src/module.js",
   "scripts": {
     "start": "node .",
