@@ -1,7 +1,8 @@
 **DK-BOORU**
 **INSTALLATION**
 ```
-const booru = require('dk-booru');
+const Booru = require('dk-booru').booru,
+   booru =  new Booru();
 ```
 **SEARCH**
 ```
