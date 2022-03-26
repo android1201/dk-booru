@@ -1,4 +1,5 @@
-var booru = require('booru');
+"use strict";
+var Booru = require('booru');
 module.exports = class booru {
 	constructor(data = {}) {
 		var site = data.site ? data.site : false,
@@ -25,7 +26,8 @@ module.exports = class booru {
 				if (data.query === false) {
 					return reject('Query not found!');
 				};
-				var newSite = booru.forSite(this.data.site);
+				var site = data.site ? data.site : this.data.site,
+					newSite = Booru.forSite(site);
 				newSite.search(data.query, data.setting).then((newData) => {
 					return resolve(newData);
 				});
